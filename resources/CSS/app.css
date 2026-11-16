@@ -1,0 +1,67 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    background: #f7f8fa;
+}
+
+.navbar-brand {
+    font-weight: 800;
+}
+
+/* Navbar purple */
+.navbar-kursusku {
+    background-color: #6b21a8 !important;
+}
+
+.navbar-kursusku .nav-link {
+    color: #f3e8ff !important;
+}
+
+.navbar-kursusku .nav-link:hover {
+    color: #ffffff !important;
+}
+
+.navbar-kursusku .navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-kursusku .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-kursusku .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Badge purple */
+.badge-kursusku {
+    background-color: #6b21a8 !important;
+    color: #ffffff !important;
+}
+
+/* Tombol purple */
+.btn-kursusku {
+    background-color: #6b21a8 !important;
+    border-color: #6b21a8 !important;
+    color: #ffffff !important;
+}
+
+.btn-kursusku:hover {
+    background-color: #581c87 !important;
+    border-color: #581c87 !important;
+    color: #ffffff !important;
+}
+.btn-delete {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.btn-delete:hover {
+    background: #b02a37;
+}
